@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <!-- 指定語言為繁體中文 -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>像素寵物發射器</title>
+    <!-- 網頁標題 -->
+
+    <!-- 必要的 CSS 來移除預設邊距並隱藏捲軸 -->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #87cefa; /* 可以設定背景色，避免畫布載入前是白色 */
+        overflow: hidden; /* 隱藏頁面捲軸 */
+      }
+      canvas {
+        display: block; /* 避免 canvas 下方出現小空隙 */
+      }
+    </style>
+
+    <!-- 載入 p5.js 函式庫 (使用 CDN) -->
+    <!-- 請確保使用最新版本的 p5.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+    <!-- 如果您有用到 p5.sound，也要載入 -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/addons/p5.sound.min.js"></script> -->
+
+    <!-- 載入您的遊戲腳本 -->
+    <!-- *** 務必在 p5.js 函式庫之後載入 *** -->
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+    <!-- p5.js 預設會將 canvas 附加到 body -->
+    <!-- 您也可以放一個 main 標籤 -->
+    <main></main>
+  </body>
+</html>
