@@ -4,7 +4,7 @@
 
 ## 🎮 線上試玩 (Live Demo)
 
-**點擊這裡體驗遊戲：** []()
+**點擊這裡體驗遊戲：** [https://ryansparkc.github.io/vibe-coding-pixelpetlauncher/](pixelpetlauncher)
 
 
 ## ✨ 遊戲特色 (Features)
